@@ -2,7 +2,13 @@ import java.util.*;
 public class main {
 
     public static void main(String[] args) {
-        System.out.println("Hola Mundo");
-        
+        Scanner sc = new Scanner(System.in);
+        String nombre;
+        System.out.println("Ingrese su nombre: ");
+        nombre = sc.nextLine();
+
+        System.out.println("Su nombre es: "+nombre );
+
+
     }
 }
