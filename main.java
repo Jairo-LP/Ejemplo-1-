@@ -8,7 +8,7 @@ public class main {
         nombre = sc.nextLine();
 
         System.out.println("Su nombre es: "+nombre );
-
+        System.out.println("El usuario vive en Quito ");
 
     }
 }
